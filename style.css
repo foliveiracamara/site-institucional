@@ -1,0 +1,55 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color:black;
+    border: aquamarine 3px solid;
+    height: 100px;
+}
+
+.conteiner{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.header .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: aquamarine;
+}
+
+.navBar li {
+    font-weight: lighter;
+}
+
+.header ul {
+    color: goldenrod;
+}
+
+.navBar .active{
+    font-weight: bolder;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
