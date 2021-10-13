@@ -53,3 +53,112 @@
     color: goldenrod;
 }
 
+.banner {
+    height: 500px;
+    background-image: 
+        url(https://wallpaperaccess.com/full/3257596.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    margin-right: 250px;
+    width: 10%;    
+    color: white;
+    font-size: 30px;
+}
+
+.message span {
+    font-weight: bolder;
+}
+
+.proposito {
+    height: 450px;
+    
+}
+
+.proposito .conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .conteiner h2{
+    background-color: white;
+    color: goldenrod;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.proposito .conteiner .mvv
+div img{
+    height: 100px;
+    width: 100px;
+}
+
+.proposito .conteiner .mvv {
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposito .conteiner .mvv div {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.proposito .conteiner .mvv div h3{
+    color: goldenrod;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.futter {
+    height: 80px;
+    background-color: rgb(221, 160, 7);
+    display: flex;
+    flex-direction: column;
+    padding-left: 320px;
+    padding-top: 80px;
+
+}
+
+.banner .formLogin{
+    background-color: lightgray;
+    border-color: blueviolet solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner .formLogin h2{
+    color: goldenrod;
+}
+
+.banner .formLogin div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .formLogin div span{
+    color: goldenrod;
+}
+
+.banner .formLogin div input {
+    border-color: goldenrod;
+}
+
